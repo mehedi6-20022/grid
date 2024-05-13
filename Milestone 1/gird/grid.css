@@ -1,0 +1,37 @@
+.container{
+    height: 100vh;
+   display: grid;
+   gap: 5px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(12, 1fr);
+}
+
+.container .header{
+    background-color: aquamarine;
+    font-size: 15px;
+    grid-column: 1/-1;
+    grid-row: 1/ 2;
+}
+.container .main{
+    background-color: rgb(5, 122, 83);
+    font-size: 15px;
+    grid-row: 2/ 7;
+}
+
+.container .content{
+    background-color: rgb(207, 178, 14);
+    font-size: 15px;
+    grid-column: 2 / -1;
+    grid-row: 2 / 12;
+
+}
+.container .contact{
+    background-color: rgb(149, 18, 201);
+    font-size: 15px;
+    grid-row: 7 / 12;
+}
+.container .footer{
+    background-color: rgb(214, 107, 19);
+    font-size: 15px;
+    grid-column: 1 / -1;
+}

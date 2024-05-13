@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html basic form design</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="bdteamlist.html">Bd team list</a></li>
+                <li><a href="Module_1_1.2.html">Module-1</a></li>
+                <li><a href="module_1_1.4.html">Module-4</a></li>
+                <li><a href="module_1_1.7.html">Module-7</a></li>
+                <li><a href="module_4_4.4.html">Module-4.4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+<form>
+    <label for="fname">First Name <span style="color: red;">*</span></label>
+    <input type="text" name="" id="fname" placeholder="Enter first name" required>
+    <br>
+    <br>
+    <label for="lname"> Last Name <span style="color: red;">*</span></label>
+    <input type="text" name="" id="lname" placeholder="Enter last name" required>
+    <br>
+    <br>
+    <label for="email">Email <span style="color: red;">*</span></label>
+    <input type="email" name="" id="email" placeholder="Enter your email address" required>
+    <br>
+    <br>
+    <label for="phone">Phone <span style="color: red;">*</span></label>
+    <input type="tel" name="" id="phone" placeholder="Enter your phone number" required>
+    <br>
+    <br>
+    <label for="address">Address</label>
+    <input type="text" name="" id="address" placeholder="Enter your present address">
+    <br>
+    <label for="dist">District</label>
+    <input type="text" name="" id="dist" placeholder="Enter your district">
+    <br>
+    <label for="city">city</label>
+    <input type="text" name="" id="city" placeholder="Enter your city">
+    <br>
+    <br>
+    <label for="web">Website/Domain name <span style="color: red;">*</span></label>
+    <input type="url" name="" id="web" placeholder="Enter your website/domain name here" required>
+    <br>
+    <br>
+    <p>Do you have any hosting <span style="color: red;">*</span></p>
+    <input type="radio" name="hosting" id="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" name="hosting" id="no">
+    <label for="no">NO</label>
+    <br>
+    <p>If you have hosting, when you're buy hosting?</p>
+    <input type="date" name="" id="date">
+    <br>
+    <p>How much GB is your hosting?</p>
+    <input type="checkbox" name="gb" id="10">
+    <label for="10">10 GB</label>
+    <input type="checkbox" name="gb" id="20">
+    <label for="20">20 GB</label>
+    <input type="checkbox" name="gb" id="30">
+    <label for="30">30 GB</label>
+    <input type="checkbox" name="gb" id="50">
+    <label for="50">50 GB </label>
+    <input type="checkbox" name="gb" id="100">
+    <label for="100">100 GB</label>
+    <br>
+    <br>
+    <label for="buy">From where do you want to buy your domain</label>
+    <select name="domain" id="buy" required>
+        <option value="" selected>Select One</option>
+        <option value="">GoDaddy</option>
+        <option value="">Namecheap</option>
+        <option value="">Perfect Domain</option>
+        <option value="">Pro Domain</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset all">
+</form>
+
+</body>
+</html>
